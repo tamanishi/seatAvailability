@@ -1,0 +1,14 @@
+{
+  "name": "seatavailability",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masayuki Sunahara <tamanishi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.19.0"
+  }
+}
