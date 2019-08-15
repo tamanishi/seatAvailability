@@ -48,7 +48,7 @@ module.exports = {
                     const href = elm.href;
                     const startTimeStr = elm.startTimeStr;
 
-                    // 東宝シネマズは上映開始時刻の20分前までチケット販売している
+                    // 109シネマズは上映開始時刻の20分前までチケット販売している
                     // see https://109cinemas.net/faq/online-ticket.html
                     let checkThresholdTime = new Date();
                     checkThresholdTime.setHours(startTimeStr.split(':')[0]);
